@@ -55,16 +55,17 @@
  */
 const brokerProfile = {
   id: crypto.randomUUID(),
-  name: 'Winnetou Soares Martins',
-  CRECI: '64.763-F',
-  profileImage: '/broker/tom2.png',
+  name: 'Nadine Benvenuti',
+  CRECI: '56.838-F',
+  profileImage: '/broker/Nadine1.png',
   description: {
     title:
-      '"Pai do Bento e marido da Luciana, praticante de artes marciais e nas horas vagas se arrisca a cantar, tocando violão."',
+      '"Minha paixão pela corretagem de imóveis é a chama que guia minha jornada."',
     paragraph: [
-      'Apresento-me como seu corretor de imóveis, especializado em oferecer mais do que propriedades, vendo informações estratégicas e oportunidades de investimento sólido no dinâmico mercado imobiliário.',
-      'Estou aqui para ser seu guia confiável nessa jornada, proporcionando acesso aos insights valiosos sobre tendências do mercado, recomendações personalizadas para investimentos sólidos e orientação em cada etapa, desde pesquisa até a negociação de sucesso para as partes envolvidas.',
-      'Lembre-se: Na hora de negociar, solicite as certidões negativas necessárias para a realização da escritura.',
+      'Muito prazer, sou Nadine Benvenuti, mãe dedicada do Giovanni e da Aurora, amante das maravilhas da natureza e da dança de salão.',
+      'Corretora de imóveis, com formação em Administração e MBA em Gestão Empresarial e Finanças Corporativas. Após uma carreira executiva em grandes empresas, escolhi aplicar minha experiência e habilidades na corretagem.',
+      'Minha trajetória é marcada por uma habilidade excepcional em lidar com pessoas, forte aptidão para vendas e negociação, e facilidade em conciliar opiniões divergentes. Essas habilidades combinadas resultaram em uma carreira de sucesso na corretagem de imóveis. Minha experiencia administrativa me proporciona uma visão clara das oportunidades de investimento do mercado. ',
+      'Além do profissionalismo, sou mãe, o que me proporciona uma compreensão profunda da importância de um lar na vida de uma família. Estou aqui para guiá-lo em cada passo do processo imobiliário, oferecendo um serviço personalizado e eficiente. Seja bem-vindo, estou ansiosa para ajudá-lo a alcançar seus objetivos imobiliários!',
     ],
   },
   address: {
@@ -74,12 +75,11 @@ const brokerProfile = {
     city: 'Florianópolis',
     state: 'SC',
   },
-  phone: '(48) 98826-2951 ',
-  email: 'winnetou@rkimoveis.com.br',
+  phone: '(51) 99971-3412',
+  email: 'nadine@rkimoveis.com.br',
   clientReview: {
-    review:
-      'Eu e meu marido adquirimos um imóvel através do corretor Winnetou Martins e fomos muito bem tratados do início até a conclusão da compra. Ele é hábil, competente e atencioso.',
-    client: 'Valzira Souza - Advogada',
+    review: '',
+    client: '',
   },
   comments: [
     {
