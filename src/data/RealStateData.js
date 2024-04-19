@@ -26,7 +26,7 @@ const properties = [
     title: 'Dom Bernardo',
     region: 'Ingleses',
     description:
-      'IMÓVEL COM MATRÍCULA Cobertura mobiliada possui 4 dormitórios, sendo 2 suítes, destaca-se pelo amplo terraço, oferecendo uma área ao ar livre generosa, perfeita para momentos de relaxamento, entretenimento e uma vista panorâmica. Além disso, a cobertura conta com 2 vagas de garagem, proporcionando comodidade e segurança para os residentes. O condomínio oferece uma área de lazer completa, proporcionando diversas opções de entretenimento aos moradores. Espaços como piscina, salão de festas, áreas verdes e outros atrativos contribuem para uma experiência residencial completa e agradável.',
+      '**IMÓVEL COM MATRÍCULA**\n\n Cobertura mobiliada possui 4 dormitórios, sendo 2 suítes, destaca-se pelo amplo terraço, oferecendo uma área ao ar livre generosa, perfeita para momentos de relaxamento, entretenimento e uma vista panorâmica. Além disso, a cobertura conta com 2 vagas de garagem, proporcionando comodidade e segurança para os residentes. O condomínio oferece uma área de lazer completa, proporcionando diversas opções de entretenimento aos moradores. Espaços como piscina, salão de festas, áreas verdes e outros atrativos contribuem para uma experiência residencial completa e agradável.',
     price: 'R$ 1.360.000,00',
     details: {
       square: '188,58 m²',
@@ -49,7 +49,7 @@ const properties = [
     title: 'Villa Rica',
     region: 'Ingleses',
     description:
-      'IMÓVEL COM MATRÍCULA Apartamento de 3 dormitórios, com uma suíte, a uma quadra do mar, em frente a uma linda praça, muito arborizada, com espaço separado para pets. 3 banheiros, sendo um lavabo, living, duas salas amplas de jantar e estar (com TV), escritório, cozinha sob medida, lavanderia sob medida, uma sacada ampla e integrada.',
+      '**IMOVEL COM MATRÍCULA**\n\n Apartamento de 3 dormitórios, com uma suíte, a uma quadra do mar, em frente a uma linda praça, muito arborizada, com espaço separado para pets. 3 banheiros, sendo um lavabo, living, duas salas amplas de jantar e estar (com TV), escritório, cozinha sob medida, lavanderia sob medida, uma sacada ampla e integrada.',
     price: 'R$ 890.000,00',
     details: {
       square: '114,90 m²',
@@ -72,7 +72,7 @@ const properties = [
     title: 'Cannes Clube II',
     region: 'Ingleses',
     description:
-      'IMÓVEL COM MATRÍCULA (em processo de individualização) O empreendimento será localizado na região nobre da praia dos Ingleses (região da Rua das Gaivotas), Norte da Ilha de Florianópolis, num terreno de aproximadamente 20.000,00m², a 180m do mar, na Rua dos Canudos. São 8 blocos, divididos em 2 terrenos, com estrutura de lazer individual em cada terreno. Conta com uma ampla infraestrutura de lazer aprox. 4.500m². Com piscina, salão de festas, academia, brinquedoteca, playground, churrasqueiras, pet place e pista de caminhada. Está semimobiliado com móveis de altíssima qualidade.',
+      '**Imóvel em Processo de Individualização de Matrícula**\n\n O empreendimento será localizado na região nobre da praia dos Ingleses (região da Rua das Gaivotas), Norte da Ilha de Florianópolis, num terreno de aproximadamente 20.000,00m², a 180m do mar, na Rua dos Canudos. São 8 blocos, divididos em 2 terrenos, com estrutura de lazer individual em cada terreno. Conta com uma ampla infraestrutura de lazer aprox. 4.500m². Com piscina, salão de festas, academia, brinquedoteca, playground, churrasqueiras, pet place e pista de caminhada. Está semimobiliado com móveis de altíssima qualidade.',
     price: 'R$ 750.000,00',
     details: {
       square: '80,97 m²',
@@ -95,7 +95,7 @@ const properties = [
     title: 'Costa Norte',
     region: 'Ingleses',
     description:
-      'IMÓVEL COM MATRÍCULA Reformado! Reformado! Localizado na rua Martinho de Haro. São 2 dormitórios, semimobiliados, com vaga de garagem coberta. Posição solar dos quartos Oeste. Rua calçada e próximo a ponto de ônibus.',
+      '**IMÓVEL COM MATRÍCULA**\n\n Reformado! Localizado na rua Martinho de Haro. São 2 dormitórios, semimobiliados, com vaga de garagem coberta. Posição solar dos quartos Oeste. Rua calçada e próximo a ponto de ônibus.',
     price: 'R$ 415.000,00',
     details: {
       square: '57,00 m²',
@@ -118,7 +118,7 @@ const properties = [
     title: 'Vellas Jurerê',
     region: 'Jurerê',
     description:
-      'IMÓVEL COM MATRÍCULA (em processo de individualização) Belíssimo apartamento de Alto Padrão na praia de Jurerê. Excelente localização em frente as marinas e próximo a paradisíaca praia de Canasjurê. Apartamento de um dormitório, suíte, conta com um lavabo, sala e cozinha com churrasqueira. O condomínio é completo e de muitíssimo bom gosto. Conta com academia, sala de jogos, salão de festas, fogo de chão e piscina.',
+      '**Imóvel em Processo de Individualização de Matrícula**\n\n Belíssimo apartamento de Alto Padrão na praia de Jurerê. Excelente localização em frente as marinas e próximo a paradisíaca praia de Canasjurê. Apartamento de um dormitório, suíte, conta com um lavabo, sala e cozinha com churrasqueira. O condomínio é completo e de muitíssimo bom gosto. Conta com academia, sala de jogos, salão de festas, fogo de chão e piscina.',
     price: 'R$ 636.000,00',
     details: {
       square: '43,36 m²',
