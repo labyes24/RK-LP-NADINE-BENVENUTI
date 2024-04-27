@@ -72,7 +72,7 @@ const properties = [
     title: 'Cannes Clube II',
     region: 'Ingleses',
     description:
-      '**Imóvel em Processo de **\n\n **Individualização de Matrícula**\n\n O empreendimento será localizado na região nobre da praia dos Ingleses (região da Rua das Gaivotas), Norte da Ilha de Florianópolis, num terreno de aproximadamente 20.000,00m², a 180m do mar, na Rua dos Canudos. São 8 blocos, divididos em 2 terrenos, com estrutura de lazer individual em cada terreno. Conta com uma ampla infraestrutura de lazer aprox. 4.500m². Com piscina, salão de festas, academia, brinquedoteca, playground, churrasqueiras, pet place e pista de caminhada. Está semimobiliado com móveis de altíssima qualidade.',
+      ' O empreendimento será localizado na região nobre da praia dos Ingleses (região da Rua das Gaivotas), Norte da Ilha de Florianópolis, num terreno de aproximadamente 20.000,00m², a 180m do mar, na Rua dos Canudos. São 8 blocos, divididos em 2 terrenos, com estrutura de lazer individual em cada terreno. Conta com uma ampla infraestrutura de lazer aprox. 4.500m². Com piscina, salão de festas, academia, brinquedoteca, playground, churrasqueiras, pet place e pista de caminhada. Está semimobiliado com móveis de altíssima qualidade.\n\n**Imóvel em Processo de **\n\n **Individualização de Matrícula**\n\n',
     price: 'R$ 750.000,00',
     details: {
       square: '80,97 m²',
@@ -118,7 +118,7 @@ const properties = [
     title: 'Vellas Jurerê',
     region: 'Jurerê',
     description:
-      '**Imóvel em Processo de **\n\n **Individualização de Matrícula**\n\n Belíssimo apartamento de Alto Padrão na praia de Jurerê. Excelente localização em frente as marinas e próximo a paradisíaca praia de Canasjurê. Apartamento de um dormitório, suíte, conta com um lavabo, sala e cozinha com churrasqueira. O condomínio é completo e de muitíssimo bom gosto. Conta com academia, sala de jogos, salão de festas, fogo de chão e piscina.',
+      'Belíssimo apartamento de Alto Padrão na praia de Jurerê. Excelente localização em frente as marinas e próximo a paradisíaca praia de Canasjurê. Apartamento de um dormitório, suíte, conta com um lavabo, sala e cozinha com churrasqueira. O condomínio é completo e de muitíssimo bom gosto. Conta com academia, sala de jogos, salão de festas, fogo de chão e piscina.\n\n**Imóvel em Processo de **\n\n **Individualização de Matrícula**\n\n',
     price: 'R$ 636.000,00',
     details: {
       square: '43,36 m²',
