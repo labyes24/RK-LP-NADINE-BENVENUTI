@@ -57,7 +57,7 @@ const brokerProfile = {
   id: crypto.randomUUID(),
   name: 'Nadine Benvenuti',
   CRECI: '56.838-F',
-  profileImage: '/broker/Nad3.png',
+  profileImage: '/broker/Nadine.png',
   description: {
     title:
       '"Minha paixão pela corretagem de imóveis é a chama que guia minha jornada."',
