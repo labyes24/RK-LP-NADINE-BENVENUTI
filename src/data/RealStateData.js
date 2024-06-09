@@ -142,6 +142,122 @@ const propertiesPT = [
 /**  @type {Array<Property>} The Portuguese properties data */
 const propertiesES = [
   // TODO: Add Spanish properties text
+  {
+    id: crypto.randomUUID(),
+    brokerId: BROKER_ID,
+    RKCode: '9702',
+    title: 'Dom Bernardo',
+    region: 'Ingleses',
+    description:
+      '**INMUEBLE CON MATRÍCULA**\n\n Cobertura amueblada cuenta con 4 dormitorios, siendo 2 suites, se destaca por la amplia terraza, ofreciendo una área al aire libre generosa, perfecta para momentos de relajación, entretenimiento y una vista panorámica. Además, la cobertura cuenta con 2 plazas de garaje, proporcionando comodidad y seguridad para los residentes. El condominio ofrece una área de ocio completa, proporcionando diversas opciones de entretenimiento a los residentes. Espacios como piscina, salón de fiestas, áreas verdes y otros atractivos contribuyen a una experiencia residencial completa y agradable.',
+    price: 'R$ 1.360.000,00',
+    details: {
+      square: '188,58 m²',
+      rooms: '4',
+      bathrooms: '3',
+      garage: '2',
+    },
+    pictures: [
+      './properties/dom-bernardo-f01.jpg',
+      './properties/dom-bernardo-f02.jpg',
+      './properties/dom-bernardo-f03.jpg',
+      './properties/dom-bernardo-f04.jpg',
+      './properties/dom-bernardo-f05.jpg',
+    ],
+  },
+  {
+    id: crypto.randomUUID(),
+    brokerId: BROKER_ID,
+    RKCode: '9807',
+    title: 'Villa Rica',
+    region: 'Ingleses',
+    description:
+      '**INMUEBLE CON MATRÍCULA**\n\n Apartamento de 3 dormitorios, con una suite, a una cuadra del mar, frente a una linda plaza muy arbolada, con espacio separado para mascotas. 3 baños, uno de ellos un aseo, salón, dos amplias salas de estar y comedor (con TV), oficina, cocina a medida, lavandería a medida, un amplio balcón integrado.',
+
+    price: 'R$ 890.000,00',
+    details: {
+      square: '114,90 m²',
+      rooms: '3',
+      bathrooms: '3',
+      garage: '2',
+    },
+    pictures: [
+      './properties/villa-rica-f01.jpg',
+      './properties/villa-rica-f02.jpg',
+      './properties/villa-rica-f03.jpg',
+      './properties/villa-rica-f04.jpg',
+      './properties/villa-rica-f05.jpg',
+    ],
+  },
+  {
+    id: crypto.randomUUID(),
+    brokerId: BROKER_ID,
+    RKCode: '7989',
+    title: 'Cannes Clube II',
+    region: 'Ingleses',
+    description:
+      ' El emprendimiento estará ubicado en la región noble de la playa de los Ingleses (región de la Rua das Gaivotas), en el norte de la Isla de Florianópolis, en un terreno de aproximadamente 20.000,00 m², a 180 m del mar, en la Rua dos Canudos. Son 8 bloques, divididos en 2 terrenos, con estructura de ocio individual en cada terreno. Cuenta con una amplia infraestructura de ocio de aprox. 4.500 m². Con piscina, salón de fiestas, gimnasio, sala de juegos para niños, área de juegos, parrillas, lugar para mascotas y pista de caminata. Está semiamueblado con muebles de altísima calidad.\n\n**Inmueble en Proceso de**\n\n**Individualización de Matrícula**\n\n',
+    price: 'R$ 750.000,00',
+    details: {
+      square: '80,97 m²',
+      rooms: '2',
+      bathrooms: '2',
+      garage: '2',
+    },
+    pictures: [
+      './properties/cannes-clube-f01.jpg',
+      './properties/cannes-clube-f02.jpg',
+      './properties/cannes-clube-f03.jpg',
+      './properties/cannes-clube-f04.jpg',
+      './properties/cannes-clube-f05.jpg',
+    ],
+  },
+  {
+    id: crypto.randomUUID(),
+    brokerId: BROKER_ID,
+    RKCode: '8403',
+    title: 'Costa Norte',
+    region: 'Ingleses',
+    description:
+      '**INMUEBLE CON MATRÍCULA**\n\n ¡Reformado! Ubicado en la calle Martinho de Haro. Son 2 dormitorios, semiamueblados, con plaza de garaje cubierta. Orientación solar de los dormitorios hacia el Oeste. Calle pavimentada y cerca de una parada de autobús.',
+    price: 'R$ 415.000,00',
+    details: {
+      square: '57,00 m²',
+      rooms: '2',
+      bathrooms: '1',
+      garage: '1',
+    },
+    pictures: [
+      './properties/costa-norte-f01.jpg',
+      './properties/costa-norte-f02.jpg',
+      './properties/costa-norte-f03.jpg',
+      './properties/costa-norte-f04.jpg',
+      './properties/costa-norte-f05.jpg',
+    ],
+  },
+  {
+    id: crypto.randomUUID(),
+    brokerId: BROKER_ID,
+    RKCode: '9746',
+    title: 'Vellas Jurerê',
+    region: 'Jurerê',
+    description:
+      'Bellísimo apartamento de Alto Estándar en la playa de Jurerê. Excelente ubicación frente a las marinas y cerca de la paradisíaca playa de Canasjurê. Apartamento de un dormitorio, suite, cuenta con un aseo, sala y cocina con parrilla. El condominio es completo y de muy buen gusto. Cuenta con gimnasio, sala de juegos, salón de fiestas, fogón y piscina.\n\n**Inmueble en Proceso de**\n\n**Individualización de Matrícula**\n\n',
+    price: 'R$ 636.000,00',
+    details: {
+      square: '43,36 m²',
+      rooms: '1',
+      bathrooms: '2',
+      garage: '1',
+    },
+    pictures: [
+      './properties/vellas-jurere-f01.jpg',
+      './properties/vellas-jurere-f02.jpg',
+      './properties/vellas-jurere-f03.jpg',
+      './properties/vellas-jurere-f04.jpg',
+      './properties/vellas-jurere-f05.jpg',
+    ],
+  },
 ]
 
 /**
@@ -154,7 +270,7 @@ const propertiesES = [
 /** @type {PropertiesData} The properties data */
 const properties = {
   pt: propertiesPT,
-  // es: propertiesES,
+  es: propertiesES,
 }
 
 /**
