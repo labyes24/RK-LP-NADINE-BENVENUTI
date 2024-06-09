@@ -171,7 +171,105 @@ const brokerProfilePT = {
  * @type {BrokerProfile} The broker profile for ES language
  */
 const brokerProfileES = {
-  // Add broker profile ES text here
+  id: crypto.randomUUID(),
+  name: 'Nadine Benvenuti',
+  CRECI: '56.838-F',
+  profileImage: '/broker/Nadine.png',
+  description: {
+    title:
+      '"Mi pasión por la corretaje de inmuebles es la llama que guía mi camino"',
+    paragraph: [
+      'Mucho gusto, soy Nadine Benvenuti, madre dedicada de Giovanni y Aurora, amante de las maravillas de la naturaleza y del baile de salón.',
+      'Soy corredora de inmuebles, con formación en Administración y un MBA en Gestión Empresarial y Finanzas Corporativas. Después de una carrera ejecutiva en grandes empresas, elegí aplicar mi experiencia y habilidades en la corretaje.',
+      'Mi trayectoria está marcada por una habilidad excepcional para tratar con personas, una fuerte aptitud para ventas y negociación, y facilidad para conciliar opiniones divergentes. Estas habilidades combinadas han resultado en una carrera exitosa en la corretaje de inmuebles. Mi experiencia administrativa me proporciona una visión clara de las oportunidades de inversión en el mercado.',
+      'Además del profesionalismo, soy madre, lo que me brinda una comprensión profunda de la importancia de un hogar en la vida de una familia. Estoy aquí para guiarlo en cada paso del proceso inmobiliario, ofreciendo un servicio personalizado y eficiente. ¡Sea bienvenido, estoy ansiosa por ayudarlo a alcanzar sus objetivos inmobiliarios!',
+    ],
+  },
+  address: {
+    street: 'Rua das Gaivotas',
+    number: '1709',
+    district: 'Ingleses',
+    city: 'Florianópolis',
+    state: 'SC',
+  },
+  phone: '(51) 99971-3412',
+  email: 'nadine@rkimoveis.com.br',
+  clientReview: {
+    review: '',
+    client: '',
+  },
+  comments: [
+    {
+      id: crypto.randomUUID(),
+      author: 'Crecimiento Económico',
+      quote:
+        'Invertir en propiedades en North Floripa significa ser parte de una comunidad en expansión.',
+    },
+    {
+      id: crypto.randomUUID(),
+      author: 'playa Paraíso',
+      quote:
+        'Quienes viven en Ingleses tienen acceso a un verdadero paraíso tropical: una impresionante playa de aguas cristalinas y arena blanca.',
+    },
+    {
+      id: crypto.randomUUID(),
+      author: 'Infraestructura completa',
+      quote:
+        'Las escuelas, clínicas médicas, supermercados y negocios locales brindan comodidad y practicidad en la vida cotidiana.',
+    },
+    {
+      id: crypto.randomUUID(),
+      author: 'Naturaleza preservada',
+      quote:
+        'Las playas de los Ingleses y Santinho cuentan con áreas de preservación ambiental. Equilibrio entre desarrollo urbano y naturaleza exuberante.',
+    },
+    {
+      id: crypto.randomUUID(),
+      author: 'Diversidad de Propiedades',
+      quote:
+        'La diversidad de opciones inmobiliarias permite encontrar la vivienda ideal para todos los gustos y necesidades',
+    },
+    {
+      id: crypto.randomUUID(),
+      author: 'Accesibilidad',
+      quote:
+        'La región está bien conectada, lo que facilita viajar a otras partes de la isla y al continente.',
+    },
+    {
+      id: crypto.randomUUID(),
+      author: 'Deportes acuáticos',
+      quote:
+        'El surf, el Stand Up Paddle y otros deportes acuáticos son populares gracias a las condiciones ideales que ofrece el mar local.',
+    },
+    {
+      id: crypto.randomUUID(),
+      author: 'Calidad de vida',
+      quote:
+        'El ambiente relajado, la exuberante naturaleza y la completa infraestructura contribuyen a una experiencia única',
+    },
+  ],
+  tips: [
+    {
+      id: crypto.randomUUID(),
+      quote:
+        'Define tu objetivo: a la hora de comprar una propiedad es fundamental entender el propósito, ya que influirá en tus elecciones.',
+    },
+    {
+      id: crypto.randomUUID(),
+      quote:
+        'Puedes tener diferentes objetivos como inversión en Reventa: Investigar la apreciación a largo plazo de la propiedad, ya sea usada o en construcción.',
+    },
+    {
+      id: crypto.randomUUID(),
+      quote:
+        'Si es para alquiler: Considere la demanda de alquileres en la zona y el retorno de la inversión, ya sea rentabilidad anual o estacional.',
+    },
+    {
+      id: crypto.randomUUID(),
+      quote:
+        'Si es para vivienda: Prioriza tus necesidades personales, como cercanía al trabajo y calidad de vida en la región.',
+    },
+  ],
 }
 
 /**
